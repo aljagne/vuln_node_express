@@ -1,0 +1,8 @@
+# stackhawk configuration for webinartest
+app:
+  # An applicationId obtained from the StackHawk platform.
+  applicationId: <your application ID> # (required)
+  # The environment for the applicationId defined in the StackHawk platform.
+  env: Development # (required)
+  # The url of your application to scan
+  host: http://localhost:3000 # (required
